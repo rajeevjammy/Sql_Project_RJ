@@ -1,0 +1,1 @@
+select code,discount_percentage,is_active,order_id from Order_Coupons right join Coupons on Coupons.coupon_id = Order_Coupons.coupon_id order by code desc;

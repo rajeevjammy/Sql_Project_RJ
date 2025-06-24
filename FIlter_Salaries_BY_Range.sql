@@ -1,0 +1,1 @@
+select emp_no,salary from salaries where salary >= 50000 and salary <=100000;

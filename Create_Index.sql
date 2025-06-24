@@ -1,0 +1,1 @@
+ explain analyze select * from Restaurants where city ='New York';

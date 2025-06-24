@@ -1,0 +1,1 @@
+select name as restaurant_name, (select max(price)from Dishes where Restaurants.restaurant_id= Dishes.restaurant_id)as max_dish_price from Restaurants;

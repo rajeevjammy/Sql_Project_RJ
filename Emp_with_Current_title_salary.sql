@@ -1,0 +1,1 @@
+select first_name,last_name,title,salary from employees join titles on employees.emp_no= titles.emp_no join salaries on employees.emp_no = salaries.emp_no where titles.to_date is not null  and salaries.to_date > current_Date ;

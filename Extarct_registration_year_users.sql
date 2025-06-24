@@ -1,0 +1,1 @@
+select user_id, substring(created_at,1,4) as registration_year from Users;
