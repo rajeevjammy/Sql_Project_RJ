@@ -1,0 +1,1 @@
+select f.flight_number,f.departure_time,f.arrival_time,f.departure_airport, f.arrival_airport,f.status,a.model,a.seating_capacity from Flights f  join Airplanes a on  f.airplane_id = a.airplane_id

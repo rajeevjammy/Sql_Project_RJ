@@ -1,0 +1,2 @@
+select order_delivery_id, concat(Delivery_Partners.name,' - ',delivery_status,' - ',order_delivery_id) as unique_delivery_performance from Order_Delivery 
+join Delivery_Partners on Order_Delivery.partner_id = Delivery_Partners.partner_id ;

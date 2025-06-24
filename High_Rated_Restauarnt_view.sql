@@ -1,0 +1,1 @@
+select Users.name,total_price from Users join Orders on Users.user_id = Orders.user_id join high_rated_restaurants on Orders.restaurant_id= high_rated_restaurants.restaurant_id where Orders.total_price > 200;

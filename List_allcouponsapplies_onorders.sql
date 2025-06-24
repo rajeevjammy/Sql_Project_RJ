@@ -1,0 +1,1 @@
+select order_id, code, discount_amount from Coupons join Order_Coupons on Coupons.coupon_id = Order_Coupons.coupon_id ; 

@@ -1,0 +1,2 @@
+
+select  gender , count(salaries.emp_no) as total_employees, avg(salary) as average_salary , max(salary) as max_salary from employees join salaries on  employees.emp_no = salaries.emp_no  group by gender ;

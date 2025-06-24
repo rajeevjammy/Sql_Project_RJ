@@ -1,0 +1,1 @@
+select order_id,user_id,total_price,(select avg(price) from Order_Details where Orders.order_id = Order_Details.order_id) as avg_dish_price from Orders;

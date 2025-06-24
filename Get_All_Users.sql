@@ -1,0 +1,1 @@
+SELECT  user_id,name,email,phone,address,created_at FROM Users; 

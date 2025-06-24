@@ -1,0 +1,1 @@
+explain analyze select order_id,r.name from Orders o join Restaurants r on o.restaurant_id=r.restaurant_id where city='Los Angeles';
