@@ -1,0 +1,1 @@
+select  replace(dept_name,'Sales','Revenue') as updated_dept_name from departments;

@@ -1,0 +1,1 @@
+select name,email from Users where user_id in (select user_id from Orders join Restaurants on Orders.restaurant_id= Restaurants.restaurant_id where rating >=4.5);

@@ -1,0 +1,1 @@
+select restaurant_id, count(distinct user_id) as unique_customers from Orders group by restaurant_id;

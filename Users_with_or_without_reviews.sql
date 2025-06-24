@@ -1,0 +1,1 @@
+select name,rating,comment from Users left join Reviews on Users.user_id =Reviews.user_id limit 10; 

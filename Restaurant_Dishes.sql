@@ -1,0 +1,1 @@
+select Dishes.name as dish_name ,Restaurants.name as restaurant_name from  Dishes  cross join  Restaurants;

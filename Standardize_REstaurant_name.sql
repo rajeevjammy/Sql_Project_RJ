@@ -1,0 +1,1 @@
+select restaurant_id, UPPER(name) as standardized_name from Restaurants ;

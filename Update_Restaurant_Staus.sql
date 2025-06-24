@@ -1,0 +1,1 @@
+Update Restaurants set has_online_delivery ='No' where name ='AMber';

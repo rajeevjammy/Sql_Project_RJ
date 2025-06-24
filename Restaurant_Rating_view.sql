@@ -1,0 +1,1 @@
+select r.name as restaurant_name, r.rating as rating, r.cuisines as cuisines from Restaurants r;
