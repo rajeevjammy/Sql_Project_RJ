@@ -54,9 +54,8 @@ I am a data analyst with experience in SQL-based data analysis, reporting, and l
 
 ## 📬 Contact
 
-- LinkedIn: [Your LinkedIn URL]
-- Email: [Your Email ID]
-
+LinkedIn: https://www.linkedin.com/in/rajeev-selvam-7a6538325/
+Email: rajeevjammy@gmail.com
 ---
 
 Thanks for checking out my SQL work!
